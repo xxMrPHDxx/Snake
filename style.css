@@ -1,0 +1,23 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+.wrapper {
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+	height: -webkit-fill-available;
+	align-items: center;
+	justify-content: center;
+}
+
+canvas {
+	border: 1px solid black;
+}
+
+#Score {
+	font-family: Courier New;
+	font-size: 32px;
+	font-weight: bold;
+}
