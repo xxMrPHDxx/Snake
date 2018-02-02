@@ -16,7 +16,7 @@ export class Snake{
 
 		this.direction = {x:1,y:0};
 		this.moveCounter = 0;
-		this.moveInterval = 1000;
+		this.moveInterval = 500;
 
 		this.scoreHolder = document.querySelector("#Score");
 		this.score = 0;
